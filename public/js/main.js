@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-	var url = 'http://localhost:8081/udemy/2/instagramf/public';
+	var url = 'http://localhost/udemy/2/instagramf/public';
 	function like(){
 		$('.btn-like').unbind('click').click(function(){
 			console.log('like');
