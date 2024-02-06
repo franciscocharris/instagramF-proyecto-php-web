@@ -49,13 +49,13 @@ CREATE TABLE likes(
 
 -- insertar en la tabla users
 
-INSERT INTO users (role, name, surname, nick, email, password, image, created_at, update_at, remember_token) 
+INSERT INTO users (role, name, surname, nick, email, password, image, created_at, updated_at, remember_token) 
 VALUES ('user', 'Fran', 'charris Camargo', 'mr.proelite', 'fran@gmail.com', 1, 'fran.jpg', CURTIME(), CURTIME(), NULL );
 
-INSERT INTO users (role, name, surname, nick, email, password, image, created_at, update_at, remember_token) 
+INSERT INTO users (role, name, surname, nick, email, password, image, created_at, updated_at, remember_token) 
 VALUES ('user', 'santi', 'charris Camargo', 'mr.santi', 'santi@gmail.com', 1, 'santi.jpg', CURTIME(), CURTIME(), NULL );
 
-INSERT INTO users (role, name, surname, nick, email, password, image, created_at, update_at, remember_token) 
+INSERT INTO users (role, name, surname, nick, email, password, image, created_at, updated_at, remember_token) 
 VALUES ('user', 'mirian', ' Camargo', 'mami', 'mirian@gmail.com', 1, 'mami.jpg', CURTIME(), CURTIME(), NULL );
 
 -- insertar en la tabla images
